@@ -1,0 +1,241 @@
+body,h1,h2,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial,sans-serif;
+}
+
+header{background-color: rgb(33, 71, 2);
+    
+    
+    color: rgb(241, 82, 82);
+    padding: 20px;
+    justify-content: center;
+    font-size: larger;
+    
+
+}
+.logo{
+    font-weight: bold;
+    
+    color: rgb(201, 230, 147);
+    
+}
+.logo:hover{
+    color: rgb(154, 174, 173);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navlinks{
+    display: flex;
+    list-style: none;
+}
+.navlinks li{
+    margin-right: 20px;
+    
+
+}
+.navlinks a{
+    text-decoration: none;
+
+    
+
+
+}
+.navlinks a:hover{
+    box-shadow: 5px 5px;
+    padding: 5px;
+    background-color: rgb(209, 207, 209);
+}
+.download-cv:hover{
+    background-color: black;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+    
+
+}
+.about{
+   
+    color: black;
+    padding: 20px;
+    height: max-content;
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?w=826&t=st=1691912635~exp=1691913235~hmac=2098d4d664f1166c2afa2c0cb67b5e19db51111349c790efe32698b99839008b);
+    background-size: cover;
+    background-position: center;
+    
+   
+    
+
+}
+.about a{
+    
+    text-decoration: none;
+    text-justify: auto;
+}
+#about{
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+#info{
+    padding-left: 40px;
+}
+.education{
+
+    background-color: rgb(163, 154, 120);
+    padding: 20px;
+    color: rgb(100, 58, 58);
+}
+
+#me{
+    border-image: round;
+    border-radius: 50%;
+    width: 150px;
+    
+}
+.edu{
+    background-color: rgb(233, 140, 140);
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+.education{
+    display: flex;
+    background-color:rgba(120, 134, 226, 0.205);
+    color: black;
+
+}
+.abc{
+    text-align: center;
+}
+.abc p{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#skillitems{
+    text-align: center;
+    background-color: rgba(120, 134, 226, 0.205);
+}
+.skills{
+    display: flex;
+    background-color: rgba(95, 98, 93, 0.205);
+    justify-content: center;
+
+}
+.language{
+    width: 50px;
+    background-color: dark seagreen;
+    padding: 20px;
+
+}
+#edu{
+    background-color: rgba(184, 231, 115, 0.205);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.projects{
+    padding: 20px;
+    background-color: rgba(120, 134, 226, 0.205);
+    color: black;
+    justify-content: space-between;
+
+
+}
+
+.projectimg{
+    width: 150px;
+    margin: 20px 20px 20px 20px;
+    
+   
+}
+.calculator{
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+}
+.PG{
+    padding-bottom: 20px;
+}
+.pro-dep{
+    text-align: center;
+}
+
+.form{
+    justify-content: center;
+    display: flex;
+    text-align: right;
+    
+    
+}
+form {
+    
+    border: 2px solid transparent; 
+    padding: 20px; 
+    background-color: whitesmoke;
+    border-image: round;
+    border-radius: 20px;
+}
+
+
+
+#button{
+    
+    border-width: 5px;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: blue;
+    border-image: round;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 5px;
+}
+#button:hover{
+    background-color: red;
+}
+
+
+.contact{
+    
+    background-color: rgba(120, 134, 226, 0.205);
+    color: darkblue;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    
+    color: black;
+    padding: 20px;
+
+}
+.contact h1{
+    
+    text-align: center;
+}
+.contact h2 img{
+    width: 30px;
+    border-image: round;
+    border-radius: 50%;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#cal{
+    width: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
